@@ -4,7 +4,6 @@ const {validation,ctrlWrapper} =require("../../middlewares");
 const {contactSchema}=require("../../schemas")
 const {contacts:ctrl}=require("../../controllers/");
 
-
 const validateMiddleware =validation(contactSchema);
 const router = express.Router()
 
